@@ -3,31 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Figma Prototype Showcase</title>
+  <title>AUDIFY-Figma</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background-color: green;
-      color: black;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
       text-align: center;
+      animation: fadeIn 2s ease-in-out;
     }
+
+    h1 {
+      margin: 20px;
+      font-size: 3em;
+      background: linear-gradient(90deg, #00ffcc, #00ff66);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .intro {
+      margin: 20px auto;
+      max-width: 800px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 12px;
+      animation: slideUp 2s ease-in-out;
+    }
+
     iframe {
       border: none;
-      width: 100%;
-      height: 90vh;
+      width: 90%;
+      height: 80vh;
+      margin: 20px auto;
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 2s ease-in-out;
     }
-    h1 {
+
+    .toggle-container {
+      margin: 20px auto;
       padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      max-width: 700px;
+      display: none;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .toggle-btn {
+      margin: 10px;
+      padding: 10px 20px;
+      background: transparent;
+      border: 2px solid #00ffcc;
+      color: #00ffcc;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .toggle-btn:hover {
+      background: #00ffcc;
+      color: #000;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      0% { transform: translateY(40px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
     }
   </style>
 </head>
 <body>
-  <h1><B><CENTER>AUDIFY</CENTER></B></h1>
+  <h1><b>AUDIFY</b></h1>
+
+  <div class="intro">
+    <p><strong>AUDIFY</strong> is a next-gen music streaming prototype designed with intuitive user flow, elegant transitions, and interactive elements. Below is the live preview of the UI/UX crafted in Figma. Explore and experience the vibe!</p>
+  </div>
+
+  <button class="toggle-btn" onclick="toggleInfo()">Toggle Info</button>
+
+  <div class="toggle-container" id="info">
+    <p>This prototype includes:</p>
+    <ul style="list-style-type: none; padding-left: 0;">
+      <li>🎧 Swipe-based login/signup</li>
+      <li>🎵 Music player interface with controls</li>
+      <li>🧭 Admin & user navigation flows</li>
+    </ul>
+  </div>
+
   <iframe
     src="https://www.figma.com/proto/GbohPO5PzNuCZ1wcBCHCDs/AUDIFY?node-id=39-27&p=f&t=bva5gXtZtLoUPeVq-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=34%3A8"
     allowfullscreen>
   </iframe>
+
+  <script>
+    function toggleInfo() {
+      const info = document.getElementById("info");
+      info.style.display = (info.style.display === "none" || info.style.display === "") ? "block" : "none";
+    }
+  </script>
 </body>
 </html>
+
