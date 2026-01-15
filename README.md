@@ -77,9 +77,3 @@ It’s a great example of UI design skill for internships, interviews, and portf
 - Live preview hosted via **GitHub Pages**
 
 ---
-
-## 📬 Connect
-
-If you’d like to discuss design decisions or see source files, feel free to connect!
-
-✨ *Thanks for checking out AUDIFY!*
