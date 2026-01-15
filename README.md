@@ -14,13 +14,26 @@ This is **not coded**, but fully presented as a static design prototype through 
 
 ---
 
+## 🎥 Demo Video
+▶️ **Watch the design walkthrough:**  
+👉 *https://youtu.be/Idi1NBJg7ko?si=FU1IUacdIakVpiwF*  
+
+
+The demo video showcases:
+- Overall design flow  
+- Key screens and layouts  
+- Navigation structure and visual hierarchy  
+- UI consistency across different sections  
+
+---
+
 ## 💡 What Makes AUDIFY Special
 
 - 🎶 Contemporary music streaming UI aesthetics  
 - 🔍 Focus on user journey and clarity  
 - 🎯 Consistent visual hierarchy and spacing  
 - 📱 Designed for responsiveness in mind  
-- ✨ Smooth visual transitions and layout balance
+- ✨ Smooth visual transitions and layout balance  
 
 This project demonstrates **design thinking, visual communication, and interface organization**, not just screens.
 
@@ -44,7 +57,7 @@ Animations and interactions are suggested through layout, hierarchy, and visual 
 - 🎨 **Figma** – UI/UX design and prototyping  
 - 🗂️ **Component-based layouts**  
 - 🔁 **Reusable visual elements**  
-- 📐 Spacing, grids, typography principles
+- 📐 Spacing, grids, typography principles  
 
 You can explore each screen and interaction by navigating through the prototype.
 
@@ -52,10 +65,10 @@ You can explore each screen and interaction by navigating through the prototype.
 
 ## 📌 Purpose of This Project
 
-- To practice **UI/UX principles**
-- To design a **conceptual music streaming app**
-- To demonstrate **Figma layout fluency**
-- To enhance portfolio with **design thinking projects**
+- To practice **UI/UX principles**  
+- To design a **conceptual music streaming app**  
+- To demonstrate **Figma layout fluency**  
+- To enhance portfolio with **design thinking projects**  
 
 ---
 
@@ -65,9 +78,9 @@ This project illustrates:
 - Thoughtful interface structure  
 - Visual consistency  
 - Practical use of Figma components  
-- Clean layout for user engagement
+- Clean layout for user engagement  
 
-It’s a great example of UI design skill for internships, interviews, and portfolios.
+It’s a strong UI/UX showcase for internships, interviews, and portfolio reviews.
 
 ---
 
@@ -77,3 +90,5 @@ It’s a great example of UI design skill for internships, interviews, and portf
 - Live preview hosted via **GitHub Pages**
 
 ---
+
+⭐ *Thank you for exploring AUDIFY!*
